@@ -1,0 +1,28 @@
+page-frt {
+	ion-content {
+		background-image: url(../assets/imgs/back4.png);
+	}
+
+	h1, h2, h3 {
+		text-align: center;
+	}
+
+	.teks {
+		font-size: 6em;
+	}
+
+	div {
+		margin: auto;
+	}	
+
+	canvas {
+    	padding-left: 0;
+    	padding-right: 0;
+    	margin-left: auto;
+    	margin-right: auto;
+    	display: block;
+    	width: 360px;
+    	background-color: 	rgba(106, 107, 109, 0.3);
+	}
+
+}

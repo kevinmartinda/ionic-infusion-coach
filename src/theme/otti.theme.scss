@@ -1,0 +1,69 @@
+.theme-otti {
+	transition: all 1.1s ease;
+	background-color: #ed716f;
+	background: linear-gradient(to bottom, rgba(9, 16, 25, 1) 0, rgba(30, 28, 58,1) 25%, rgba(30,28,58,1) 75%, rgba(11,12,22,1) 100%);
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	p,
+	.toolbar-title,
+	.bar-button-default,
+	body,
+	div {
+		transition: all 1.1s ease;
+		color: #020202;
+	}
+	.onboard {
+		border-color: #ffff00	!important;
+	}
+	.toolbar-background,
+	.toggle-checked {
+		transition: all 1.1s ease;
+		background-color: #020202;
+	}
+	.item-note,
+	.themeButton,
+	.swiper-pagination-bullet {
+		transition: all 1.1s ease;
+		background-color: #f4f4f4;
+		border: 1px solid #f4f4f4;
+	}
+
+	ion-content {
+		background-color: #ed716f;
+	}
+	.input-wrapper,
+	.item-inner,
+	.item,
+	ion-label {
+		transition: all 1.1s ease;
+		background-color: #020202 !important;
+	}
+	ion-list {
+		background-color: #020202;
+	}
+	.time {
+   		background-color: black;
+	 }
+ 	.item {
+   		transition: all 1s ease;
+   		background-color: 100815;
+   		color: black;
+   	}
+   	.renge-bar {
+   		background-color: #edf458;
+   	}
+   	.s2,
+   	.s3,
+   	.toggle-inner,
+   	.renge-pin,
+   	.range-pin::before,
+   	.range-knob,
+   	.range-bar-active {
+   		background-color: #020202;
+   		color: black !important;
+   	}
+}
